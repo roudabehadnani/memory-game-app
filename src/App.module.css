@@ -1,0 +1,21 @@
+.app{
+    max-width: 100%;
+    margin: 50px auto;
+
+}
+
+.button{
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0.1rem;
+    border-color: white;
+    background-color: black;
+    margin-top: 2rem;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: purple;
+}
