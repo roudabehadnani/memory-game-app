@@ -1,5 +1,5 @@
 .app{
-    max-width: 100%;
+    max-width:860px;
     margin: 50px auto;
 
 }
@@ -18,4 +18,11 @@
 }
 .button:hover{
     background-color: purple;
+}
+
+.card__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    grid-gap: 40px;
 }
