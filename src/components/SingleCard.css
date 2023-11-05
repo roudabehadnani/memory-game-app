@@ -12,7 +12,17 @@
 .card .frontImage{
     position: absolute;
     transform: rotateY(90deg);
+    transition:all ease-in 0.2s;
 }
 .flipped .frontImage{
     transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+.card .coverImage{    
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+.flipped .coverImage{
+    transform: rotateY(90deg);
+    transition-delay:0s;
 }
