@@ -1,0 +1,18 @@
+.card{
+    position: relative;
+
+}
+.card img{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid #fff;
+}
+
+.card .frontImage{
+    position: absolute;
+    transform: rotateY(90deg);
+}
+.flipped .frontImage{
+    transform: rotateY(0deg);
+}

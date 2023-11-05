@@ -1,15 +1,18 @@
 import React from "react";
-import Styles from "./SingleCard.module.css";
+import "./SingleCard.css"
+// import Styles from "./SingleCard.module.css";
 
-function SingleCard({card, handleChoice}) {
+function SingleCard({card, handleChoice, flipped}) {
 
   const handleClick = () => {
     handleChoice(card);
   }
   return (
-    <div className={Styles.card}>
-      <img src={card.src} className={Styles.frontImage} alt="front of card" />
-      <img src="/image/cover.png" className={Styles.coverImage} alt="cover of card" onClick={handleClick} />
+    <div className="card">
+    <div className={flipped ? "flipped" : "" }>
+      <img src={card.src} className="frontImage" alt="front of card" />
+      <img src="/image/cover.png" className="coverImage" alt="cover of card" onClick={handleClick} />
+    </div>
     </div>
   );
 }
