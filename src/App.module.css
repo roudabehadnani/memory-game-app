@@ -1,12 +1,12 @@
 .app{
-    max-width:860px;
-    margin: auto;
-    padding: 1rem;
+    width:100%;  
+    padding: 1rem;    
+    justify-content: center;
+    align-items: center;
 
 }
 
-.button{
-    
+.button{   
     justify-content: center;
     align-items: center;
     color: white;
@@ -17,6 +17,9 @@
     margin-bottom: 1rem;
     padding: 2px 7px;
     cursor: pointer;
+}
+.button h3{
+    padding: 4px;
 }
 .button:hover{
     background-color: purple;
@@ -29,9 +32,22 @@
     grid-gap: 15px;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
 .counter{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+}
+.footer__counter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
